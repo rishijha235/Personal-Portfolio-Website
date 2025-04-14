@@ -18,7 +18,7 @@ const About = () => {
           </div>
           <div className="space-y-4">
             <p className="text-gray-300">
-              Hi! I'm Rishi Jha, a passionate Full Stack Developer with a strong foundation in web technologies
+              Hi! I am Rishi Jha, a passionate Full Stack Developer with a strong foundation in web technologies
               and a keen eye for creating beautiful, functional applications.
             </p>
             <p className="text-gray-300">
