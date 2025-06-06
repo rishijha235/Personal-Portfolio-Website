@@ -43,7 +43,7 @@ const Home = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full opacity-20 group-hover:opacity-30 transition-opacity"></div>
             <div className="w-full h-full rounded-full border-2 border-blue-400 overflow-hidden shadow-lg">
               <img
-                src="/image.jpeg"
+                src="/image.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
@@ -58,7 +58,7 @@ const Home = () => {
         </p>
         <div className="flex items-center justify-center gap-8 mb-12">
           <a
-            href="/resume.pdf"
+            href="/Rishi_Resume.pdf"
             download
             className="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2"
           >

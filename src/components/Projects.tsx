@@ -4,28 +4,36 @@ import { Github, ExternalLink } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with real-time inventory management.',
-      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80',
+      title: 'E-Learning Platform',
+      description: 'A full-stack e-learning platform using modern web technologies for seamless online education.',
+      image: '/E-Learning.jpg',
       technologies: ['React', 'Node.js', 'MongoDB', 'Redux'],
       github: 'https://github.com/RishiJha/ecommerce',
-      live: 'https://ecommerce-demo.com'
+      live: 'https://studynotion-kappa-eight.vercel.app/'
     },
     {
-      title: 'Task Management App',
-      description: 'Collaborative task management with real-time updates and team features.',
-      image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80',
-      technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Tailwind'],
-      github: 'https://github.com/RishiJha/taskmanager',
-      live: 'https://taskmanager-demo.com'
+      title: 'Stock Price Prediction',
+      description: 'An LSTM-based deep learning model for stock price prediction using historical time series data.',
+      image: '/stock.jpg',
+      technologies: ['TensorFlow', 'Keras', 'Pandas', 'NumPy', 'Matplotlib', 'Scikit-learn'],
+      github: 'https://github.com/rishijha235/Stock-Price-Prediction.git',
+      live: 'https://stock_price_prediction-demo.com'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'Real-time weather tracking with interactive maps and forecasts.',
-      image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80',
-      technologies: ['React', 'OpenWeather API', 'Chart.js'],
-      github: 'https://github.com/RishiJha/weather',
-      live: 'https://weather-demo.com'
+      title: 'Plan with Love',
+      description: 'A platform designed to help you plan your journey based on your budget and preferred destinations.',
+      image: '/tourismPlan.png',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/rishijha235/Tourism-Plan',
+      live: 'https://tourism-plan-flame.vercel.app/'
+    },
+    {
+      title: 'Top Courses',
+      description: 'A professional platform designed to help you discover the most relevant courses in your domain, empowering you to master in-demand skills and advance your career.',
+      image: '/courses.png',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/rishijha235/Top-Courses',
+      live: 'https://top-courses-pearl.vercel.app/'
     }
   ];
 
