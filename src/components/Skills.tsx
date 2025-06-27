@@ -6,19 +6,21 @@ const Skills = () => {
       title: 'Programming Languages',
       skills: [
         { name: 'Java', level: 90, icon: '☕', color: 'from-red-500 to-red-700' },
-        { name: 'Python', level: 85, icon: '🐍', color: 'from-yellow-500 to-yellow-700' },
-        { name: 'C', level: 82, icon: '⚙️', color: 'from-blue-500 to-blue-700' },
+        { name: 'Python', level: 75, icon: '🐍', color: 'from-yellow-500 to-yellow-700' },
+        { name: 'C', level: 80, icon: '⚙️', color: 'from-blue-500 to-blue-700' },
         { name: 'JavaScript', level: 88, icon: '🟨', color: 'from-yellow-400 to-yellow-600' },
-        { name: 'TypeScript', level: 85, icon: '📘', color: 'from-blue-500 to-blue-600' }
+        { name: 'TypeScript', level: 85, icon: '📘', color: 'from-blue-500 to-blue-600' },
+        { name: 'SQL', level: 90, icon: '🗄️', color: 'from-blue-500 to-blue-600' }
       ]
     },
     {
-      title: 'Web Technologies',
+      title: 'Web Technologies/Frameworks',
       skills: [
         { name: 'React', level: 90, icon: '⚛️', color: 'from-cyan-500 to-blue-500' },
         { name: 'Node.js', level: 88, icon: '🟢', color: 'from-green-500 to-green-700' },
+        { name: 'Express', level: 85, icon: '⚡', color: 'from-gray-600 to-gray-800' },
         { name: 'HTML/CSS', level: 95, icon: '🌐', color: 'from-orange-500 to-red-500' },
-        { name: 'Express', level: 85, icon: '⚡', color: 'from-gray-600 to-gray-800' }
+        { name: 'Tailwind CSS', level: 90, icon: '🎨', color: 'from-purple-500 to-purple-700' }
       ]
     },
     {
@@ -37,6 +39,15 @@ const Skills = () => {
         { name: 'GitHub', level: 90, icon: '🐱', color: 'from-gray-600 to-gray-800' },
         { name: 'Postman', level: 88, icon: '📬', color: 'from-orange-500 to-orange-700' },
         { name: 'Docker', level: 80, icon: '🐳', color: 'from-blue-500 to-blue-700' }
+      ]
+    },
+    {
+      title: 'Libraries',
+      skills: [
+        { name: 'Pandas', level: 85, icon: '🐼', color: 'from-black to-gray-700' },
+        { name: 'NumPy', level: 83, icon: '🔢', color: 'from-blue-400 to-blue-700' },
+        { name: 'Matplotlib', level: 80, icon: '📊', color: 'from-pink-500 to-purple-700' },
+        { name: 'Seaborn', level: 78, icon: '🌊', color: 'from-blue-300 to-blue-600' }
       ]
     }
   ];
