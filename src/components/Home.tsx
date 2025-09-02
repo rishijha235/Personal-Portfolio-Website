@@ -11,7 +11,7 @@ const Home = () => {
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
-      url: 'www.linkedin.com/in/rishi-jha-758732283',
+      url: 'https://www.linkedin.com/in/rishi-jha-758732283',
       name: 'LinkedIn',
       color: 'hover:text-blue-500'
     },
