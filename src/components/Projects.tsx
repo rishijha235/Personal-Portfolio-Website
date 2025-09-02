@@ -20,6 +20,14 @@ const Projects = () => {
       live: 'https://stock_price_prediction-demo.com'
     },
     {
+      title: 'LinkBee',
+      description: 'A Link Manager Platform that allows users to organize and manage all their important links in one place.',
+      image: '/linkbee.png',
+      technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'CSS'],
+      github: 'https://github.com/rishijha235/LinkBee',
+      live: 'https://link-bee-mern.vercel.app'
+    },
+    {
       title: 'Plan with Love',
       description: 'A platform designed to help you plan your journey based on your budget and preferred destinations.',
       image: '/tourismPlan.png',
