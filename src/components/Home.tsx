@@ -29,7 +29,7 @@ const Home = () => {
     },
     {
       icon: <Instagram className="w-6 h-6" />,
-      url: 'https://www.instagram.com/rishi___jhaaa/',
+      url: 'https://www.instagram.com/rishi__jhaaa/',
       name: 'Instagram',
       color: 'hover:text-pink-500'
     }
