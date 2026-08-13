@@ -29,7 +29,8 @@ const Skills = () => {
         { name: 'DSA', level: 88, icon: '🔍', color: 'from-purple-500 to-purple-700' },
         { name: 'Computer Networks', level: 85, icon: '🌐', color: 'from-blue-500 to-blue-700' },
         { name: 'Operating Systems', level: 82, icon: '💻', color: 'from-gray-600 to-gray-800' },
-        { name: 'DBMS', level: 90, icon: '🗄️', color: 'from-green-500 to-green-700' }
+        { name: 'DBMS', level: 90, icon: '🗄️', color: 'from-green-500 to-green-700' },
+        { name: 'Object-Oriented Programming', level: 90, icon: '🧩', color: 'from-blue-500 to-blue-700' }
       ]
     },
     {
